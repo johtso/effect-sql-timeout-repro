@@ -1,0 +1,22 @@
+{
+  "name": "dark-cake-a4c8",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241106.0",
+    "tsconfig": "workspace:*",
+    "typescript": "5.6.3",
+    "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "@effect/sql": "^0.22.7",
+    "@effect/sql-pg": "^0.23.7",
+    "effect": "^3.11.0",
+    "postgres": "^3.4.5"
+  }
+}
